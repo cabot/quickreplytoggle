@@ -1,0 +1,7 @@
+services:
+    cabot.quickreplytoggle.listener:
+        class: cabot\quickreplytoggle\event\listener
+        arguments:
+            - @user
+        tags:
+            - { name: event.listener }
