@@ -1,26 +1,30 @@
 {
     "name": "cabot/quickreplytoggle",
     "type": "phpbb-extension",
-    "description": "Affiche un bouton pour afficher/masquer la réponse rapide.",
+    "description": "Add a button to show/hide the quick reply.",
     "homepage": "http://cabotweb.fr",
-    "version": "1.0.0",
-    "keywords": [ "phpbb", "extension" ],
-    "license": "GPL-2.0",
+    "version": "1.0.3",
+    "keywords": [
+        "phpbb",
+        "extension"
+    ],
+    "license": "GPL-2.0-only",
     "authors": [
         {
             "name": "cabot",
             "homepage": "http://cabotweb.fr",
-            "role": "SuhiMaker"
+            "role": "SushiMaker"
         }
     ],
     "require": {
         "php": ">=5.3.3",
-		"composer/installers": "~1.0"
+        "composer/installers": "~1.0",
+        "phpbb/phpbb": ">=3.3"
     },
     "extra": {
         "display-name": "Quick Reply Toggle",
         "soft-require": {
-            "phpbb/phpbb": "3.1"
+            "phpbb/phpbb": "3.3"
         }
     }
 }
